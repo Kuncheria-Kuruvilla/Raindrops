@@ -1,0 +1,5 @@
+ofxBox2d
+ofxContourAnalysis
+ofxOpenCv
+ofxVectorMath
+ofxNoise

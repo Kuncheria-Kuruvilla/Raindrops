@@ -1,0 +1,228 @@
+HOST_OS=Linux
+checking pkg-config libraries:   cairo zlib gstreamer-app-1.0 gstreamer-1.0 gstreamer-video-1.0 gstreamer-base-1.0 libudev freetype2 fontconfig sndfile openal openssl libpulse-simple alsa gl glu glew gtk+-3.0 libmpg123 
+Compiling OF library for Release
+HOST_OS=Linux
+checking pkg-config libraries:   cairo zlib gstreamer-app-1.0 gstreamer-1.0 gstreamer-video-1.0 gstreamer-base-1.0 libudev freetype2 fontconfig sndfile openal openssl libpulse-simple alsa gl glu glew gtk+-3.0 libmpg123 
+make[1]: Entering directory `/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworksCompiled/project'
+HOST_OS=Linux
+checking pkg-config libraries:   cairo zlib gstreamer-app-1.0 gstreamer-1.0 gstreamer-video-1.0 gstreamer-base-1.0 libudev freetype2 fontconfig sndfile openal openssl libpulse-simple alsa gl glu glew gtk+-3.0 libmpg123 
+HOST_OS=Linux
+checking pkg-config libraries:   cairo zlib gstreamer-app-1.0 gstreamer-1.0 gstreamer-video-1.0 gstreamer-base-1.0 libudev freetype2 fontconfig sndfile openal openssl libpulse-simple alsa gl glu glew gtk+-3.0 libmpg123 
+Done!
+make[1]: Leaving directory `/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworksCompiled/project'
+
+
+Compiling myRaindrops for Release
+HOST_OS=Linux
+checking pkg-config libraries:   cairo zlib gstreamer-app-1.0 gstreamer-1.0 gstreamer-video-1.0 gstreamer-base-1.0 libudev freetype2 fontconfig sndfile openal openssl libpulse-simple alsa gl glu glew gtk+-3.0 libmpg123 
+make[1]: Entering directory `/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops'
+Compiling /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp
+g++ -c -O3 -DNDEBUG -march=native -mtune=native -Wall -std=c++14 -DGCC_HAS_REGEX -DOF_USING_GTK -DOF_USING_GTK -DOF_USING_MPG123  -pthread -D_REENTRANT -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/gstreamer-1.0 -I/usr/include/alsa -I/usr/include/libdrm -I/usr/include/GL -I/usr/include/gtk-3.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/harfbuzz -I/usr/include/opencv -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/fmodex/include -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/glfw/include -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/glfw/include/GLFW -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/kiss/include -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/poco/include -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/tess2/include -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/utf8cpp/include -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/utf8cpp/include/utf8 -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/communication -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/sound -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/3d -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/app -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/utils -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/types -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/video -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/events -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/gl -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/math -pthread -D_REENTRANT -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/gstreamer-1.0 -I/usr/include/alsa -I/usr/include/libdrm -I/usr/include/GL -I/usr/include/gtk-3.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/harfbuzz -I/usr/include/opencv -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/rapidxml -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/data -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/data/sound -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/data/img -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/libs -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxTriangleSrc -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/libs -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/libs/Box2D -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/libs/Box2D/Collision -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/libs/Box2D/Dynamics -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/libs/Box2D/Common -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/libs/Box2D/Rope -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/libs/triangle -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxContourAnalysis/src -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxOpenCv/src -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxOpenCv/libs -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxVectorMath/src -I/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxNoise/src -MMD -MP -MF obj/linux64/Release/src/main.d -MT obj/linux64/Release/src/main.o -o obj/linux64/Release/src/main.o -c /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp
+In file included from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/gameScene.h:23:0,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp:5:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxContourAnalysis/src/ofxContourAnalysis.h: In member function ‘void ofxContourAnalysis::draw(std::vector<ofVec3f>&, float, float, float, float, bool)’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxContourAnalysis/src/ofxContourAnalysis.h:41:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i<contour.size(); i++) {
+                 ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxContourAnalysis/src/ofxContourAnalysis.h:50:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int i=0; i<contour.size(); i++) {
+                  ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxContourAnalysis/src/ofxContourAnalysis.h:55:9: warning: ‘void ofCircle(float, float, float)’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:478): Use ofDrawCircle instead [-Wdeprecated-declarations]
+        3);
+         ^
+In file included from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/gameScene.h:26:0,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp:5:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/WaterParticles.h: In member function ‘virtual void WaterParticles::draw()’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/WaterParticles.h:83:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (int i=0; i< particles.size(); ++i)
+                        ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/WaterParticles.h:100:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i=0; i< particles.size(); ++i)
+                  ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/WaterParticles.h:107:110: warning: ‘void ofCircle(float, float, float)’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:478): Use ofDrawCircle instead [-Wdeprecated-declarations]
+                 ofCircle(particles[i].getPosition().x, particles[i].getPosition().y, particles[i].getRadius());
+                                                                                                              ^
+In file included from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/costumSoftBody.h:14:0,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/gameScene.h:28,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp:5:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dSoftBody.h: In member function ‘void ofxBox2dSoftBody::setup(b2World*, float, float)’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dSoftBody.h:301:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i<ring.size(); i++) {
+                 ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dSoftBody.h:30:8: warning: unused variable ‘fix’ [-Wunused-variable]
+   bool fix = false;
+        ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dSoftBody.h: In member function ‘void ofxBox2dSoftBody::draw()’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dSoftBody.h:316:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i<ring.size(); i++) {
+                 ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dSoftBody.h:322:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i<m_joints.size(); i++) {
+                 ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dSoftBody.h:327:33: warning: ‘void ofLine(float, float, float, float)’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:486): Use ofDrawLine instead [-Wdeprecated-declarations]
+    ofLine(p1.x, p1.y, p2.x, p2.y);
+                                 ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dSoftBody.h:330:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i<center_joints.size(); i++) {
+                 ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dSoftBody.h:335:33: warning: ‘void ofLine(float, float, float, float)’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:486): Use ofDrawLine instead [-Wdeprecated-declarations]
+    ofLine(p1.x, p1.y, p2.x, p2.y);
+                                 ^
+In file included from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/gameScene.h:28:0,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp:5:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/costumSoftBody.h: In member function ‘void costumSoftBody::draw()’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/costumSoftBody.h:142:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int i=0; i<ring.size(); i++) {
+                  ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/costumSoftBody.h:148:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int i=0; i<m_joints.size(); i++) {
+                  ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/costumSoftBody.h:153:34: warning: ‘void ofLine(float, float, float, float)’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:486): Use ofDrawLine instead [-Wdeprecated-declarations]
+     ofLine(p1.x, p1.y, p2.x, p2.y);
+                                  ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/costumSoftBody.h:156:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int i=0; i<center_joints.size(); i++) {
+                  ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/costumSoftBody.h:161:34: warning: ‘void ofLine(float, float, float, float)’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:486): Use ofDrawLine instead [-Wdeprecated-declarations]
+     ofLine(p1.x, p1.y, p2.x, p2.y);
+                                  ^
+In file included from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/gameScene.h:34:0,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp:5:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h: At global scope:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:24:1: warning: ‘typedef’ was ignored in this declaration
+ };
+ ^
+In file included from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/gameScene.h:34:0,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp:5:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h: In member function ‘void RaindropLine::drop()’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:133:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i < raindrops.size(); i++) {
+                    ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:158:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             for (int i = 1; i < vertices.size()-1; i++){
+                               ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h: In member function ‘void RaindropLine::updateJoints()’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:199:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i=1; i<vertices.size()-1; i++) {
+                       ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h: In member function ‘void RaindropLine::clearDrops()’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:209:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i<softdrops.size();i++) {
+                         ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:216:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int i = 0; i<softdrops.size();i++) {
+                    ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h: In member function ‘virtual void RaindropLine::draw()’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:250:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             for(int i=0; i<raindrops.size(); i++) {
+                           ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:264:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (int i = 0; i < vertices.size(); i++){
+                           ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:273:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             else if (i == vertices.size()-1){
+                        ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:294:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (int i = 0; i < vertices.size(); i++){
+                           ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:300:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             else if (i == vertices.size()-1){
+                        ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:312:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i=0; i<softdrops.size(); i++) {
+                       ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h: In member function ‘int RaindropLine::getDropWithID(int)’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/RaindropLine.h:331:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (int i = 0; i<raindrops.size(); i++) {
+                          ^
+In file included from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/gameScene.h:35:0,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp:5:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h: In member function ‘void Background::setup(b2World*, int*, int, int, ofColor, ofColor, ofColor, std::string)’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h:45:34: warning: ‘bool ofImage_<T>::loadImage(std::string) [with PixelType = unsigned char; std::string = std::basic_string<char>]’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofImage.h:185): Use load instead [-Wdeprecated-declarations]
+             bg1.loadImage(img_src);
+                                  ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h:46:9: error: ‘else’ without a previous ‘if’
+         else
+         ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h: In member function ‘virtual void Background::draw()’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h:63:43: warning: ‘void ofRect(float, float, float, float)’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:490): Use ofDrawRectangle instead [-Wdeprecated-declarations]
+             ofRect(0, 0, mywidth, myheight);
+                                           ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h: In member function ‘void Background::doWind()’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h:113:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i<windSource.size(); ++i){
+                 ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h:131:62: warning: ‘void ofCircle(float, float, float)’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:478): Use ofDrawCircle instead [-Wdeprecated-declarations]
+     ofCircle(windPos.x+(h.x*10), windPos.y+(h.y*10), force/10);
+                                                              ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h:134:64: warning: ‘void ofCircle(float, float, float)’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:478): Use ofDrawCircle instead [-Wdeprecated-declarations]
+     ofCircle(windPos.x+(h.x*-10), windPos.y+(h.y*-10), force/10);
+                                                                ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h:110:7: warning: unused variable ‘l’ [-Wunused-variable]
+   int l = 1000;
+       ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h:111:7: warning: unused variable ‘maxH’ [-Wunused-variable]
+   int maxH = 100;
+       ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h: In member function ‘void Background::drawLevelLoader()’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/Background.h:152:39: warning: ‘void ofRect(float, float, float, float)’ is deprecated (declared at /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:490): Use ofDrawRectangle instead [-Wdeprecated-declarations]
+         ofRect(0, 0, mywidth, myheight);
+                                       ^
+In file included from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/gameScene.h:36:0,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp:5:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/LevelLoader.h: In member function ‘void LevelLoader::nextLevel(std::vector<Plant>*, RaindropLine*, Background*, int*, bool)’:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/LevelLoader.h:207:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i<color_drop[level-1].size(); i++) {
+                         ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/LevelLoader.h:209:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             for(int ii = 0; ii<temp.size();ii++) {
+                               ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/LevelLoader.h:222:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i<flower_prefs[level-1].size(); i++) {
+                         ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/LevelLoader.h:229:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             if(i<temp.size())
+                 ^
+In file included from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2d.h:3:0,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/gameScene.h:20,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp:5:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dUtils.h: At global scope:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dUtils.h:8:14: warning: ‘float b2dNum(float)’ defined but not used [-Wunused-function]
+ static float b2dNum(float f) {
+              ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dUtils.h:13:15: warning: ‘b2Vec2 screenPtToWorldPt(ofVec2f)’ defined but not used [-Wunused-function]
+ static b2Vec2 screenPtToWorldPt(ofVec2f p) {
+               ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dUtils.h:16:16: warning: ‘ofPoint worldPtToscreenPt(b2Vec2)’ defined but not used [-Wunused-function]
+ static ofPoint worldPtToscreenPt(b2Vec2 p) {
+                ^
+In file included from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2d.h:4:0,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/gameScene.h:20,
+                 from /home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops/src/main.cpp:5:
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:101:25: warning: ‘std::vector<ofVec2f> simplifyContour(std::vector<ofVec2f>&, float)’ defined but not used [-Wunused-function]
+ static vector <ofVec2f> simplifyContour(vector <ofVec2f> &V, float tol) {
+                         ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:210:14: warning: ‘float getTriangleRadius(ofVec2f, ofVec2f, ofVec2f)’ defined but not used [-Wunused-function]
+ static float getTriangleRadius(ofVec2f v1, ofVec2f v2, ofVec2f v3) {
+              ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:238:14: warning: ‘float getArea(std::vector<ofVec2f>)’ defined but not used [-Wunused-function]
+ static float getArea(const vector <ofVec2f> pts) {
+              ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:251:14: warning: ‘float getTriangleArea(ofVec2f&, ofVec2f&, ofVec2f&)’ defined but not used [-Wunused-function]
+ static float getTriangleArea(ofVec2f &a, ofVec2f &b, ofVec2f &c) {
+              ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:291:13: warning: ‘void addRandomPointsInside(ofPolyline&, int)’ defined but not used [-Wunused-function]
+ static void addRandomPointsInside(ofPolyline &poly, int amt=100) {
+             ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:382:31: warning: ‘std::vector<TriangleShape> triangulatePolygonWithOutline(const std::vector<ofVec3f>&, const ofPolyline&)’ defined but not used [-Wunused-function]
+ static vector <TriangleShape> triangulatePolygonWithOutline(const vector <ofPoint> &pts,
+                               ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:464:31: warning: ‘std::vector<TriangleShape> triangulatePolygon(const ofPolyline&, bool, int)’ defined but not used [-Wunused-function]
+ static vector <TriangleShape> triangulatePolygon(const ofPolyline &poly, bool addPointsInside=false, int amt=100) {
+                               ^
+/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h:544:19: warning: ‘ofPolyline getConvexHull(ofPolyline&)’ defined but not used [-Wunused-function]
+ static ofPolyline getConvexHull(ofPolyline &line){
+                   ^
+make[1]: *** [obj/linux64/Release/src/main.o] Error 1
+make[1]: Leaving directory `/home/kunju/KUNJU/DEV/openFramework/of_v0.9.3_linux64_release/apps/myApps/myRaindrops'
+make: *** [Release] Error 2

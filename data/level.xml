@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+
+<!-- colorschemes for flowers and branches: blue, red, brown, grey, colored, green -->
+
+<game width="1280" height="768">
+
+
+
+    <level id="1">
+        <branch>
+			<color>brown</color>
+		</branch>
+        <flower>
+			<item x="800" height="400" width="80" branches="2"/>
+		</flower>
+		<drop>
+			<color>grey</color>
+		</drop>
+		<line r="201" g="201" b="221"/>
+		<background r="43" g="44" b="76" src="../data/img/bg_level1.jpg"/>
+		<water r="160" g="162" b="201"/>
+		<fly r = "201" g = "201" b="223"/>
+    </level>
+
+        <level id="2">
+        <branch>
+			<color>blue</color>
+			<color>colored</color>
+		</branch>
+        <flower>
+			<item x="170" height="350" width="130" branches="1"/>
+			<item x="450" height="550" width="70" branches="3"/>
+			<item x="670" height="350" width="130" branches="1"/>
+		</flower>
+		<drop>
+			<color>colored</color>
+			<color>blue</color>
+		</drop>
+		<line r="201" g="0" b="124"/>
+		<background r="171" g="171" b="171" src="../data/img/grey.png"/>
+		<water r="94" g="94" b="94"/>
+		<fly r = "255" g = "139" b="210"/>
+    </level>
+
+    <level id="3">
+        <branch>
+			<color>grey</color>
+		</branch>
+        <flower>
+			<item x="400" height="300" width="70" branches="3"/>
+			<item x="600" height="500" width="50" branches="4"/>
+		</flower>
+		<drop>
+			<color>red</color>
+			<color>green</color>
+		</drop>
+		<line r="255" g="139" b="0"/>
+		<background r="53" g="56" b="93" src="../data/img/stars.png"/>
+		<water r="45" g="88" b="93"/>
+		<fly r = "153" g = "31" b="0"/>
+    </level>
+
+    <level id="4">
+        <branch>
+			<color>green</color>
+			<color>blue</color>
+		</branch>
+        <flower>
+			<item x="100" height="400" width="100" branches="2"/>
+			<item x="250" height="300" width="70" branches="1"/>
+
+		</flower>
+		<drop>
+			<color>blue</color>
+			<color>green</color>
+		</drop>
+		<line r="153" g="31" b="0"/>
+		<background r="225" g="167" b="52" src="../data/img/sun.png"/>
+		<water r="210" g="122" b="89"/>
+		<fly r = "215" g = "86" b="0"/>
+    </level>
+
+    <level id="5">
+        <branch>
+			<color>colored</color>
+		</branch>
+        <flower>
+			<item x="130" height="400" width="20" branches="2"/>
+			<item x="259" height="500" width="30" branches="2"/>
+			<item x="430" height="400" width="90" branches="3"/>
+			<item x="370" height="333" width="60" branches="1"/>
+			<item x="670" height="450" width="80" branches="3"/>
+			<item x="730" height="300" width="50" branches="2"/>
+		</flower>
+		<drop>
+			<color>blue</color>
+		</drop>
+		<line r="0" g="108" b="143"/>
+		<background r="239" g="245" b="246" src="../data/img/winter.png"/>
+		<water r="68" g="174" b="249"/>
+		<fly r = "168" g = "116" b="34"/>
+    </level>
+
+    <level id="6">
+        <branch>
+			<color>grey</color>
+		</branch>
+        <flower>
+			<item x="130" height="400" width="20" branches="2"/>
+			<item x="259" height="500" width="30" branches="2"/>
+			<item x="430" height="400" width="50" branches="2"/>
+			<item x="370" height="600" width="60" branches="1"/>
+			<item x="730" height="300" width="50" branches="2"/>
+		</flower>
+		<drop>
+			<color>blue</color>
+			<color>red</color>
+		</drop>
+		<line r="0" g="114" b="153"/>
+		<background r="167" g="179" b="111" src="../data/img/palm.png"/>
+		<water r="249" g="199" b="68"/>
+		<fly r = "255" g = "241" b="105"/>
+    </level>
+
+    <level id="7">
+        <branch>
+			<color>grey</color>
+		</branch>
+        <flower>
+			<item x="77" height="400" width="20" branches="1"/>
+			<item x="133" height="500" width="30" branches="2"/>
+			<item x="355" height="400" width="90" branches="3"/>
+			<item x="470" height="600" width="99" branches="4"/>
+			<item x="530" height="200" width="40" branches="2"/>
+			<item x="666" height="450" width="100" branches="3"/>
+		</flower>
+		<drop>
+			<color>grey</color>
+			<color>grey</color>
+			<color>red</color>
+			<color>blue</color>
+		</drop>
+		<line r="0" g="0" b="0"/>
+		<background r="0" g="0" b="0" src="../data/img/circle.png"/>
+		<water r="0" g="0" b="0"/>
+		<fly r = "132" g = "27" b="27"/>
+    </level>
+
+	<sound>on</sound>
+
+</game>		
