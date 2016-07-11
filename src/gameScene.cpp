@@ -47,7 +47,7 @@ void gameScene::setup(){
     loadLevel(true);
 	rainDrops = &(line.softdrops);
 
-	//cout << "gamescene::setup::end" << endl;
+	cout << "gamescene::setup::end" << endl;
 
 }
 

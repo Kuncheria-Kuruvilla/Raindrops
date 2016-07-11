@@ -41,8 +41,8 @@ public:
 		water_color = color1;
         bg_color = color2;
 		if(img_src!=""){
-			cout<<img_src.c_str()<<endl;
-            bg1.loadImage(img_src);
+            bg1.load(img_src);
+            cout<<img_src.c_str()<<endl;
         }
         else
             bg1.clear();

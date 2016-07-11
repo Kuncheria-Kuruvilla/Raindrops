@@ -11,6 +11,7 @@
 
 
 void Plant::setup(b2World * world , int screenWidth,int pos_x, int pos_y, int numberOfBranches, float maxHeight, float maxWidth, int colorSchemeFlower, int colorSchemeBranch) {
+	cout<<"here--";
 	nBranches = numberOfBranches;
 	position.x = pos_x;
 	position.y = pos_y;
@@ -18,7 +19,6 @@ void Plant::setup(b2World * world , int screenWidth,int pos_x, int pos_y, int nu
 	maxH = maxHeight;
 	cSchemeBranch = colorSchemeBranch;
 	cSchemeFlower = colorSchemeFlower;
-
 
 
 	//create branches

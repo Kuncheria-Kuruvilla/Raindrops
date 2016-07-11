@@ -17,7 +17,7 @@
 			<color>grey</color>
 		</drop>
 		<line r="201" g="201" b="221"/>
-		<background r="43" g="44" b="76" src="../data/img/bg_level1.jpg"/>
+		<background r="43" g="44" b="76" src="data/img/bg_level1.jpg"/>
 		<water r="160" g="162" b="201"/>
 		<fly r = "201" g = "201" b="223"/>
     </level>
@@ -37,7 +37,7 @@
 			<color>blue</color>
 		</drop>
 		<line r="201" g="0" b="124"/>
-		<background r="171" g="171" b="171" src="../data/img/grey.png"/>
+		<background r="171" g="171" b="171" src="data/img/grey.png"/>
 		<water r="94" g="94" b="94"/>
 		<fly r = "255" g = "139" b="210"/>
     </level>
@@ -55,7 +55,7 @@
 			<color>green</color>
 		</drop>
 		<line r="255" g="139" b="0"/>
-		<background r="53" g="56" b="93" src="../data/img/stars.png"/>
+		<background r="53" g="56" b="93" src="data/img/stars.png"/>
 		<water r="45" g="88" b="93"/>
 		<fly r = "153" g = "31" b="0"/>
     </level>
@@ -75,7 +75,7 @@
 			<color>green</color>
 		</drop>
 		<line r="153" g="31" b="0"/>
-		<background r="225" g="167" b="52" src="../data/img/sun.png"/>
+		<background r="225" g="167" b="52" src="data/img/sun.png"/>
 		<water r="210" g="122" b="89"/>
 		<fly r = "215" g = "86" b="0"/>
     </level>
@@ -96,7 +96,7 @@
 			<color>blue</color>
 		</drop>
 		<line r="0" g="108" b="143"/>
-		<background r="239" g="245" b="246" src="../data/img/winter.png"/>
+		<background r="239" g="245" b="246" src="data/img/winter.png"/>
 		<water r="68" g="174" b="249"/>
 		<fly r = "168" g = "116" b="34"/>
     </level>
@@ -117,7 +117,7 @@
 			<color>red</color>
 		</drop>
 		<line r="0" g="114" b="153"/>
-		<background r="167" g="179" b="111" src="../data/img/palm.png"/>
+		<background r="167" g="179" b="111" src="data/img/palm.png"/>
 		<water r="249" g="199" b="68"/>
 		<fly r = "255" g = "241" b="105"/>
     </level>
@@ -141,7 +141,7 @@
 			<color>blue</color>
 		</drop>
 		<line r="0" g="0" b="0"/>
-		<background r="0" g="0" b="0" src="../data/img/circle.png"/>
+		<background r="0" g="0" b="0" src="data/img/circle.png"/>
 		<water r="0" g="0" b="0"/>
 		<fly r = "132" g = "27" b="27"/>
     </level>

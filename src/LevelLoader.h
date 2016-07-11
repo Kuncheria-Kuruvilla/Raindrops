@@ -51,7 +51,7 @@ public:
         level = 0;
     }
 
-    void setup(b2World *world, int *width, int *height, string xml_location = "../data/level.xml") {
+    void setup(b2World *world, int *width, int *height, string xml_location = "../bin/data/level.xml") {
         cout << "Setup";
         myworld = world;
         mywidth = width;
@@ -193,14 +193,13 @@ public:
         //cout << "levelloader::nextlevel::line->setup"<< endl;
 
         line->setup(myworld, dropsDown, *mywidth, *myheight, color_drop[level-1], color_background[level-1], color_line[level-1]);
-        cout<<"trial 1 \n";
         background->setup(myworld, dropsDown, *mywidth, *myheight, color_water[level-1], color_background[level-1], color_fly[level-1], bg_image[level-1]);
 
         cout << "levelloader::nextlevel::plants->clear"<< endl;
 
         plants->clear();
 
-        //cout << "levelloader::nextlevel::color_shuffle"<< endl;
+        cout << "levelloader::nextlevel::color_shuffle"<< endl;
 
         vector<int> temp;
 
@@ -218,13 +217,11 @@ public:
 
         random_shuffle(temp.begin(), temp.end());
 
-
         for(int i = 0; i<flower_prefs[level-1].size(); i++) {
 
-            //cout << "levelloader::nextlevel::plant" << i << endl;
-
-            Plant p;
-
+            cout << "levelloader::nextlevel::plant" << i << endl;
+cout<<"there----------";
+            Plant    p;
             int color_id;
             if(i<temp.size())
                 color_id = temp[i];
@@ -234,15 +231,19 @@ public:
             int random_index = ofRandom(0,color_branch[level-1].size());
 
             int temp_c_branch = color_branch[level-1][random_index];
+            cout<<"\nPARAMETERS ARE : "<<flower_prefs[level-1].size()<<":"<<*mywidth<<" : " <<flower_prefs[level-1][i][0]<<" : "<<*myheight<<" : "<< flower_prefs[level-1][i][3]<<" : "<<flower_prefs[level-1][i][2]<<" : "
+                     <<flower_prefs[level-1][i][1]<<":" <<color_id<<":"<< temp_c_branch;
+
 
             p.setup(myworld,*mywidth, flower_prefs[level-1][i][0], *myheight, flower_prefs[level-1][i][3], flower_prefs[level-1][i][2],
-                    flower_prefs[level-1][i][1], color_id, temp_c_branch);
+                     flower_prefs[level-1][i][1], color_id, temp_c_branch);
 
             plants->push_back(p);
 
         }
 
         cout << "level " << level << " loading done."<< endl;
+        
 
     }
 

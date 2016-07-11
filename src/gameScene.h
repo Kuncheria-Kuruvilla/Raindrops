@@ -35,7 +35,7 @@
 #include "Background.h"
 #include "LevelLoader.h"
 
-#include "contactListener.h"
+//#include "contactListener.h"
  struct b2ContactPoint  
 {  
 	b2Body* shape1;		///< the first shape  

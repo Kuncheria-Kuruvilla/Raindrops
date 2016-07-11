@@ -56,9 +56,10 @@ public:
 	int cSchemeBranch, cSchemeFlower;
 	vector <ofxBox2dCircle> ballJoints;
 	vector <ofxBox2dJoint> joints;
+	int nBranches;
 	
 private:
-	int nBranches;
+	
 	ofxVec2f position;
 	float maxH, maxW;
 	//branch attributes
